@@ -8,6 +8,12 @@ body {
 
 }
 
+a {
+  color:#A1DAC5;
+  text-decoration: none;
+}
+
+
 @font-face {
   font-family:Fontz;
   src: url('/home/afzal/Desktop/Software repository/UI Design/Darchives/files/pictures/G/G.ttf');
@@ -43,7 +49,7 @@ body {
 	text-align:center;
 	float: right;
 	color:#A1DAC5;
-	font-size:8;
+	font-size:7;
 	margin: 50px 50px 100px 35%;
 }
 .Nav_button_1{
@@ -84,9 +90,9 @@ body {
 .main_heading {
   position: relative;
   float: right;
-  font-size: 20px;
+  font-size: 17px;
   font-family: Fontz;
-  margin: 15% 45% 10px 0%;
+  margin: 15% 53.4% 10px 0%;
   color: #31DA9C;
   text-align: left;
 
@@ -94,7 +100,7 @@ body {
 .main_heading_paragraph{
   position: relative;
   float: right;
-  font-size: 14px;
+  font-size: 12px;
   font-family: Future_font;
   margin: 0px 45% 0px 3.0%;
   color: #6ADAB1;
@@ -130,15 +136,14 @@ body {
 
  #container {
     position: absolute;
-    width: 400px;
+    width: 350px;
     height: 220px;
     left: 50%;
-    margin:15% 10% 10% 20%;
+    margin:13% 10% 10% 20%;
    	background: transparent;
     color: white;
     border-radius: 10px;
     border: 1px solid transparent;
-    box-shadow: 0 1px 2px rgba(0, 0, 0, .1);
 
 
  }
