@@ -1,4 +1,9 @@
-
+body{
+  margin-top: 0px;
+  margin-left: 0px;
+  margin-bottom: 0px;
+  margin-right: 0px;
+}
 @font-face {
   font-family:Fontz;
   src: url('/home/afzal/Desktop/Software repository/UI Design/Darchives/files/pictures/G/G.ttf');
@@ -7,8 +12,53 @@
   font-family:Future_font;
   src: url('/home/afzal/Desktop/Software repository/UI Design/Darchives/files/pictures/P/P.ttf');
 }
+
+#menubar{
+  font-family: Future_font;
+  font-size: 13px;
+
+}
+
+#menubar li{
+  float: right;
+  display: inline-block;
+  margin-left: 30px;
+  margin-right: 30px;
+  margin-top: 27px;
+  list-style: none;
+  color: #A1DCDB;
+}
+
+/*This overrides it apparently */
+#menubar #tile{
+  font-family: Fontz;
+  color:  #DC6B2C;
+}
+
+header{
+  position: absolute;
+  height: 70px;
+  width: 65%;
+  border-radius: 25px;
+  margin: 0px 0px 200px auto;
+  background-color: #262626;
+  z-index: 5;
+  margin:0% auto auto auto;
+  left: 50%;
+  -moz-transform: translateX(-50%) translateY(-50%);
+  -webkit-transform: translateX(-50%) translateY(-50%);
+  transform: translateX(-50%) translateY(-50%);
+}
+
+header::after{
+  content: '';
+  display: table;
+  clear: both;
+}
+
+/*
 .grad {
- background: linear-gradient(to right, #0A0C19 15%,transparent );
+ background: linear-gradient(to right, #262626 20%,transparent 100%);
  width: 35%;
  height: 100%;
  background-repeat: no-repeat;
@@ -18,22 +68,63 @@
  z-index: 2;
 
 }
+
+.grad_right{
+  background: linear-gradient(to left, #262626 25%,transparent 100%);
+  width: 35%;
+  height: 100%;
+  margin: auto 0% auto auto;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  position:absolute;
+  background-size: 100% 100%;
+  z-index: 2;
+}
+
+*/
+
 .back{
-  background-image: url('/home/afzal/Desktop/Software repository/UI Design/Darchives/files/pictures/home_1.jpg');
+  background-image: url('/home/afzal/Desktop/Software repository/UI Design/Darchives/files/pictures/wall.jpg');
   position:absolute;
   background-size: 100% 100%;
   z-index: 1;
 }
 
+.box{
+  height: 15px;
+  width: auto;
+  display: flex;
+  background-color:#121212;
+  position: absolute;
+  z-index: 3;
+  margin:48.5% auto auto auto;
+  left: 50%;
+  -moz-transform: translateX(-50%) translateY(-50%);
+  -webkit-transform: translateX(-50%) translateY(-50%);
+  transform: translateX(-50%) translateY(-50%);
 
+}
+
+.box_content{
+  color:#A1DCDB;
+  font-family: Future_font;
+  font-size: 9px;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  padding-right: 3px;
+  padding-left:3px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 
 .first_heading {
   position: relative;
   float: right;
   font-size: 10px;
   font-family: Fontz;
-  margin: 7% 70.4% 10px 2%;
-  color: #31DA9C;
+  margin: 5% 70.4% 10px 2%;
+  color: #2CDCD8;
   text-align: left;
   z-index: 3;
 
@@ -46,8 +137,34 @@
   font-size: 12px;
   font-family: Future_font;
   margin:  2% 70.4% 10px 2%;
-  color: #6ADAB1;
+  color: #66DCD9;
   text-align: left;
   z-index: 2;
+
+}
+
+#image{
+  z-index: 5;
+  position: absolute;
+  margin: 6% 60% 30% 33%;
+
+}
+
+img{
+  max-width: 500px;
+  max-height: 90%;
+}
+
+.second_paragraph{
+  position: absolute;
+  float: left;
+  font-size: 12px;
+  font-family: Future_font;
+  margin:  7% auto 10% 75%;
+  padding-right: 10px;
+  color: #66DCD9;
+  text-align: left;
+  z-index: 2;
+
 
 }

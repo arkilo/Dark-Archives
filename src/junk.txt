@@ -1,0 +1,26 @@
+
+#menubar{
+  position: absolute;
+  width: 500px;
+  margin: 0% 30% 2% 60%;
+  height: 50px;
+  float: left;
+  z-index: 1;
+}
+
+#menubar li{
+  color: #A1DAC5;
+  font-family: Future_font;
+}
+
+#menubar ul li{
+  float: left;
+  width: 150px;
+  list-style-type: none;
+}
+
+#menubar ul ul{
+  display: none;
+}
+
+#menubar ul li:hover > li{display: block}
