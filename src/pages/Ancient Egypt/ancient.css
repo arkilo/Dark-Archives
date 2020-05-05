@@ -36,13 +36,13 @@ body{
 }
 
 header{
-  position: absolute;
+  position: fixed;
   height: 70px;
   width: 65%;
   border-radius: 25px;
   margin: 0px 0px 200px auto;
   background-color: #262626;
-  z-index: 5;
+  z-index: 9;
   margin:0% auto auto auto;
   left: 50%;
   -moz-transform: translateX(-50%) translateY(-50%);
@@ -90,6 +90,19 @@ header::after{
   z-index: 1;
 }
 
+
+.Background_photo_page_2{
+  background-image: url('/home/afzal/Desktop/Software repository/UI Design/Darchives/files/pictures/wall.jpg');
+	margin-top: 0%;
+	background-repeat: no-repeat;
+	background-attachment: scroll;
+	position: absolute;
+	background-size: 100% 100%;
+	height: 100%;
+	width: 100%;
+
+}
+
 .box{
   height: 15px;
   width: auto;
@@ -97,8 +110,8 @@ header::after{
   background-color:#121212;
   position: absolute;
   z-index: 3;
-  margin:48.5% auto auto auto;
-  left: 50%;
+  margin:28.6% auto auto auto;
+  left: 52.5%;
   -moz-transform: translateX(-50%) translateY(-50%);
   -webkit-transform: translateX(-50%) translateY(-50%);
   transform: translateX(-50%) translateY(-50%);
@@ -145,6 +158,9 @@ header::after{
 
 #image{
   z-index: 5;
+  border: 2px solid #2CDCD8;
+  padding: 10px;
+  padding-bottom: 25px;
   position: absolute;
   margin: 6% 60% 30% 33%;
 
@@ -165,6 +181,18 @@ img{
   color: #66DCD9;
   text-align: left;
   z-index: 2;
+}
+
+.mid_paragraph{
+  position: absolute;
+  float: right;
+  font-size: 12px;
+  font-family: Future_font;
+  color: #66DCD9;
+  z-index: 3;
+  margin: 31% 33%;
+  width: 40%;
+
 
 
 }
