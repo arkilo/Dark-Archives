@@ -6,7 +6,6 @@ body{
 }
 
 
-
 #verticalLine {
   border-left: 2px solid #404040;
   position: absolute;
@@ -16,20 +15,10 @@ body{
   margin: 3.2% 0px 0px 17px;
 }
 
-#verticalLine_right {
-  border-right: 2px solid #404040;
-  position: absolute;
-  height: 1000px;
-  margin-top: 2px;
-  z-index: 5;
-  margin: 3.2% 200px 0px 1340px;
-}
-
-
 #horizontalline{
   border-top: 2px solid #404040;
   position: absolute;
-  width: 1343px;
+  width: 1330px;
   z-index: 5;
   margin: 3.9% 0px 0px 7px;
 }
@@ -55,15 +44,6 @@ h3{
   float: right;
   padding-left:10px;
   padding-right:10px;
-
-}
-
-#menubar #Nav_button_icon{
-  position: absolute;
-  float: left;
-  padding: 0px;
-  margin:-9px 0% 10% -72%;
-  z-index:8;
 
 }
 
@@ -161,9 +141,9 @@ header{
   height: 75px;
   width: 100%;
   margin: 0px 0px 200px auto;
-  background-color: #121212;
+  background-color: #262626;
   z-index: 9;
-  margin:5px auto auto auto;
+  margin:0% auto auto auto;
   left: 50%;
   -moz-transform: translateX(-50%) translateY(-50%);
   -webkit-transform: translateX(-50%) translateY(-50%);
@@ -204,7 +184,7 @@ header::after{
 */
 
 .back{
-  background-color:#121212;
+  background-color:#191919;
   position:absolute;
   background-size: 100% 100%;
   z-index: 1;
@@ -230,8 +210,8 @@ header::after{
   background-color:#121212;
   position: absolute;
   z-index: 3;
-  margin:26.9% auto auto auto;
-  left: 80.5%;
+  margin:28.6% auto auto auto;
+  left: 52.5%;
   -moz-transform: translateX(-50%) translateY(-50%);
   -webkit-transform: translateX(-50%) translateY(-50%);
   transform: translateX(-50%) translateY(-50%);
@@ -241,14 +221,12 @@ header::after{
 .box_content{
   color:#A1DCDB;
   font-family: Future_font;
-  font-size: 10.6px;
-  font-weight: normal;
-  padding-top: 0px;
+  font-size: 9px;
+  padding-top: 2px;
   padding-bottom: 2px;
   padding-right: 3px;
   padding-left:3px;
   display: flex;
-
   align-items: center;
   justify-content: center;
 }
@@ -281,26 +259,24 @@ header::after{
 #image{
   z-index: 5;
   border: 1px solid #2CDCD8;
-  padding: 0px;
-  border-style: outset;
-  padding-bottom: 0px;
+  padding: 10px;
+  padding-bottom: 25px;
   position: absolute;
-  margin: 6% 60% 30% 61.8%;
+  margin: 6% 60% 30% 33%;
 
 }
 
 img{
-  max-width: 480px;
+  max-width: 500px;
   max-height: 90%;
 }
 
 .second_paragraph{
   position: absolute;
   float: left;
-  width: 370px;
   font-size: 12px;
   font-family: Future_font;
-  margin:  7% auto 10% 33%;
+  margin:  7% auto 10% 75%;
   padding-right: 10px;
   color: #66DCD9;
   text-align: left;
@@ -310,23 +286,10 @@ img{
 .mid_paragraph{
   position: absolute;
   float: right;
-  width: 470px;
   font-size: 12px;
   font-family: Future_font;
   color: #66DCD9;
   z-index: 3;
   margin: 31% 33%;
-}
-
-.third_paragraph{
-  position: absolute;
-  float: right;
-  font-size: 12px;
-  font-family: Future_font;
-  margin:  28% 2% 10px 70%;
-  color: #66DCD9;
-  width: 400px;
-  text-align: left;
-  z-index: 2;
-
+  width: 40%;
 }
