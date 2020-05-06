@@ -19,6 +19,36 @@ body{
 
 }
 
+/* LIGHTS UP THE TITLE OF HEADERS ITSELF
+#menubar li:hover{
+  color: #DC6B2C;
+  transition: all ease-in-out 400ms;
+}
+
+*/
+
+#menubar li::before{
+	content: '';
+	display: block;
+	height: 2px;
+	width: 100%;
+	background-color: #DC6B2C;
+	top: 0;
+	width: 0%;
+
+
+}
+
+
+#menubar li:hover::before{
+	width: 100%;
+	transition: all ease-in-out 400ms;
+
+}
+
+
+
+
 #menubar li{
   float: right;
   display: inline-block;
