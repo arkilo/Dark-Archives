@@ -19,7 +19,7 @@ body{
 #verticalLine_right {
   border-right: 2px solid #404040;
   position: absolute;
-  height: 1000px;
+  height: 1800px;
   margin-top: 2px;
   z-index: 5;
   margin: 3.2% 200px 0px 1340px;
@@ -223,18 +223,6 @@ header::after{
 
 }
 
-.Third_background{
-  background-color:#121212;
-  margin-top: 50%;
-  background-repeat: no-repeat;
-  background-attachment: scroll;
-  position: absolute;
-  background-size: 100% 100%;
-  height: 100%;
-  width: 100%;
-
-}
-
 .box{
   height: 15px;
   width: auto;
@@ -341,105 +329,4 @@ img{
   text-align: left;
   z-index: 2;
 
-}
-
-
-.parent_timeline_wrapper{
-  margin-top: 0px;
-}
-
-/* |||| CSS Set for the dotted lines ||||*/
-
-.dotted_line{
-  position: absolute;
-  margin: 140% -1140px auto;
-  width: 20px;
-}
-
-/* Controls the inactive dots */
-
-.dotted_line li {
-  width: 1.2em;
-  height: 1.2em;
-  text-align: center;
-  line-height: 2em;
-  border-radius: 1em;
-  background:#28D292;
-  margin: 32px 1em;
-  display: inline-block;
-  color: white;
-  position: relative;
-  z-index: 5;
-  opacity: 1;
-}
-
-
-
-/* controls the active dots */
-
-.dotted_line li::before{
-  content: '';
-  position: absolute;
-
-  /* IDEA: controls the lines height */
-  top: -2.4em;
-  left: -2.05em;
-  width: 5.4em;
-  height: .1em;
-  background:#28D292;
-  /* IDEA: rotates the lines by 90 degrees */
-  transform: rotate(90deg);
-  z-index: -1;
-}
-
-
-.dotted_line li:first-child::before {
-  display: none;
-}
-
-/* controls the lines of the dots which are inactive */
-
-.dotted_line .active {
-  background: #28D292;
-}
-
-/* controls the dots of inactive */
-.dotted_line .active ~ li {
-  background: #28D292;
-}
-
-.dotted_line .active ~ li::before {
-  background:#28D292;
-}
-
-/* |||| End wrapper dots ||||*/
-.wrapper_timeline{
-
-}
-
-.headings_timeline{
-  position: absolute;
-  font-family: Fontz;
-  font-size: 11px;
-  font-weight: lighter;
-  color: #2CDCD8;
-  /* Controls the distance between the elements of a div/class/id */
-  line-height: 70px;
-  margin: 142% -1020px auto;
-}
-
-.comments_timeline{
-  position: absolute;
-  font-family: Fontz;
-  font-size: 2px;
-  margin:-252% 400px auto;
-  width: 600px;
-  font-weight: lighter;
-  line-height: 20px;
-
-}
-
-/* Color the dates under wrapper timeline headings */
-.timeline_underdates h3{
-  color: #ABABAB;
 }
