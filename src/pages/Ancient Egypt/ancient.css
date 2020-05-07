@@ -10,7 +10,7 @@ body{
 #verticalLine {
   border-left: 2px solid #404040;
   position: absolute;
-  height: 1000px;
+  height: 1800px;
   margin-top: 2px;
   z-index: 5;
   margin: 3.2% 0px 0px 17px;
@@ -32,6 +32,14 @@ body{
   width: 1343px;
   z-index: 5;
   margin: 3.9% 0px 0px 7px;
+}
+
+.heading_line{
+  border-top: 2px solid #404040;
+  position: absolute;
+  z-index: 8;
+  margin: 140% -850px auto;
+  width: 1240px;
 }
 
 h3{
@@ -345,10 +353,17 @@ img{
 
 }
 
+.timeline_heading_main{
+  position: absolute;
+  margin: 140% -590px auto;
+  color:#28D292;
+  font-family: Fontz;
+  font-size: 13px;
+}
 
 
 .parent_timeline_wrapper{
-  margin-top: 0px;
+  margin-top: 50px;
 }
 
 /* |||| CSS Set for the dotted lines ||||*/
@@ -446,4 +461,3 @@ img{
 .timeline_underdates h3{
   color: #ABABAB;
 }
-
