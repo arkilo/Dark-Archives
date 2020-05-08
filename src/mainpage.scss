@@ -135,29 +135,64 @@ a {
 	font-family: Arial;
  }
 
- #container {
+ .container {
     position: absolute;
     width: 350px;
     height: 220px;
     left: 50%;
     margin:13% 10% 10% 20%;
    	background: transparent;
-    color: white;
+    color:#2CDCD8;
     border-radius: 10px;
     border: 1px solid transparent;
 
 
  }
+.container input{
+  background-color: #191919;
+  border-color: #A1DCDB;
+  border: 1px solid#A1DCDB;
+  color: #66DCD9;
+}
+.name{
+  margin: -12% -3% auto;
+  position: absolute;
+
+}
 
 .lower{
-  margin-top: 15px;
-  margin-left: 210px;
+  position: absolute;
+  margin-top: 50%;
+  margin-left: 85%;
 }
  .user{
    margin: 40px;
-   color:#A1DAC5 ;
 
  }
  .pass{
-   color: #A1DAC5;
+   margin-top: -6%;
+   position: absolute;
+}
+.dropdown_selection{
+  position: absolute;
+  margin-top: 5%;
+
+}
+
+.dropdown_selection #dropstuff{
+  margin-left: 56px;
+}
+
+.label_radio{
+  position: absolute;
+  margin-top: 20%;
+}
+.checkboxes{
+  position: absolute;
+  margin-top: 50%;
+
+}
+
+input{
+  color: black;
 }

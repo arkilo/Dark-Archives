@@ -184,32 +184,92 @@ header::after{
   clear: both;
 }
 
-/*
+
 .grad {
  background: linear-gradient(to right, #262626 20%,transparent 100%);
- width: 35%;
- height: 100%;
+ width: 85%;
+ height: 200%;
  background-repeat: no-repeat;
  background-attachment: scroll;
  position:absolute;
  background-size: 100% 100%;
- z-index: 2;
+ z-index: -1;
 
 }
 
 .grad_right{
-  background: linear-gradient(to left, #262626 25%,transparent 100%);
-  width: 35%;
+  background: linear-gradient(to left, #262626 24%,transparent 100%);
+  width: 85%;
   height: 100%;
-  margin: auto 0% auto auto;
+  margin: 83.3% 0% auto auto;
   background-repeat: no-repeat;
   background-attachment: scroll;
   position:absolute;
   background-size: 100% 100%;
+  z-index: -1;
+}
+
+.fourth_background_writing_wrapper{
+
+}
+
+.fourth_background_heading{
+  position: absolute;
+  float: right;
+  font-size: 10px;
+  font-family: Fontz;
+  margin: 122% 50.4% 10px 3%;
+  color: #2CDCD8;
+  text-align: left;
+  z-index: 3;
+
+}
+
+.fourth_background_comment{
+  position: absolute;
+  float: right;
+  font-size: 15px;
+  font-family: Future_font;
+  font-weight: lighter;
+  margin:  135% 70.4% 10px 3%;
+  color: #FFFFFF;
+  text-align: left;
   z-index: 2;
 }
 
-*/
+.fifth_background_writing_wrapper{
+
+}
+
+.fifth_background_heading{
+  position: absolute;
+  float: right;
+  font-size: 10px;
+  font-family: Fontz;
+  margin: 173% 50.4% 10px 3%;
+  color: #2CDCD8;
+  text-align: left;
+  z-index: 3;
+
+}
+
+.fifth_background_comment{
+  position: absolute;
+  float: right;
+  font-size: 15px;
+  font-family: Future_font;
+  font-weight: lighter;
+  margin:  185% 70.4% 10px 3%;
+  color: #FFFFFF;
+  text-align: left;
+  z-index: 2;
+}
+
+.fourth_background_comment h2{
+  font-size: 30px;
+}
+
+
 
 .back{
   background-color:#121212;
@@ -239,9 +299,62 @@ header::after{
   background-attachment: scroll;
   position: absolute;
   background-size: 100% 100%;
-  height: 100%;
+  height: 40%;
   width: 100%;
 
+}
+
+.Fourth_background_picture{
+  background-image: url('/home/afzal/Desktop/Software repository/UI Design/Darchives/files/research/statue-sobekemsafe-egyptian-sculpture-gallery-british-museum.jpg');
+  margin-top: 70%;
+  margin-left: 440px;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  position: absolute;
+  background-size: 100% 100%;
+  height: 100%;
+  width: 28%;
+
+}
+
+
+.Fifth_background_picture{
+  background-image: url('/home/afzal/Desktop/Software repository/UI Design/Darchives/files/research/rosetta_sculpture.jpg');
+  margin-top: 70%;
+  margin-left: 440px;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  position: absolute;
+  background-size: 100% 100%;
+  height: 100%;
+  width: 28%;
+
+
+}
+
+
+.fifth_gradient_left {
+ background: linear-gradient(to right, #262626 20%,transparent 100%);
+ width: 85%;
+ height: 307%;
+ background-repeat: no-repeat;
+ background-attachment: scroll;
+ position:absolute;
+ background-size: 100% 100%;
+ z-index: -1;
+
+}
+
+.fifth_gradient_right{
+  background: linear-gradient(to left, #262626 24%,transparent 100%);
+  width: 85%;
+  height: 100%;
+  margin: 59.7% 0% auto auto;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  position:absolute;
+  background-size: 100% 100%;
+  z-index: -1;
 }
 
 
@@ -332,12 +445,12 @@ img{
 .mid_paragraph{
   position: absolute;
   float: right;
-  width: 470px;
+  width: 360px;
   font-size: 12px;
   font-family: Future_font;
   color: #66DCD9;
   z-index: 3;
-  margin: 31% 33%;
+  margin: 36% 2%;
 }
 
 .third_paragraph{
@@ -347,7 +460,7 @@ img{
   font-family: Future_font;
   margin:  28% 2% 10px 70%;
   color: #66DCD9;
-  width: 400px;
+  width: 380px;
   text-align: left;
   z-index: 2;
 
