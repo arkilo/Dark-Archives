@@ -10,7 +10,7 @@ body{
 #verticalLine {
   border-left: 2px solid #404040;
   position: absolute;
-  height: 1800px;
+  height: 2940px;
   margin-top: 2px;
   z-index: 5;
   margin: 3.2% 0px 0px 17px;
@@ -19,7 +19,7 @@ body{
 #verticalLine_right {
   border-right: 2px solid #404040;
   position: absolute;
-  height: 1800px;
+  height: 2940px;
   margin-top: 2px;
   z-index: 5;
   margin: 3.2% 200px 0px 1340px;
@@ -166,7 +166,7 @@ h3{
 
 header{
   position: fixed;
-  height: 75px;
+  height: 83px;
   width: 100%;
   margin: 0px 0px 200px auto;
   background-color: #121212;
@@ -211,33 +211,35 @@ header::after{
 
 .fourth_background_writing_wrapper{
 
+
 }
 
-.fourth_background_heading{
+#fourth_background_heading{
   position: absolute;
   float: right;
   font-size: 10px;
   font-family: Fontz;
-  margin: 122% 50.4% 10px 3%;
+  margin: 128% 2.4% 10px 12%;
   color: #2CDCD8;
   text-align: left;
   z-index: 3;
 
 }
 
-.fourth_background_comment{
+#fourth_background_comment{
   position: absolute;
   float: right;
-  font-size: 15px;
+  font-size: 13px;
   font-family: Future_font;
   font-weight: lighter;
-  margin:  135% 70.4% 10px 3%;
+  margin:  135% 55% 10px 12%;
   color: #FFFFFF;
   text-align: left;
   z-index: 2;
 }
 
 .fifth_background_writing_wrapper{
+  margin-left: 120px;
 
 }
 
@@ -259,7 +261,7 @@ header::after{
   font-size: 13px;
   font-family: Future_font;
   font-weight: lighter;
-  margin:  190% 70.4% 10px 3%;
+  margin:  190% 55% 10px 3%;
   color: #FFFFFF;
   text-align: left;
   z-index: 2;
@@ -307,12 +309,14 @@ header::after{
 .Fourth_background_picture{
   background-image: url('/home/afzal/Desktop/Software repository/UI Design/Darchives/files/research/statue-sobekemsafe-egyptian-sculpture-gallery-british-museum.jpg');
   margin-top: 70%;
-  margin-left: 440px;
+  margin-left: 800px;
   background-repeat: no-repeat;
+  border-radius: 10px;
+  border: 1px solid #66DCD9;
   background-attachment: scroll;
   position: absolute;
   background-size: 100% 100%;
-  height: 100%;
+  height: 85.5%;
   width: 28%;
 
 }
@@ -321,9 +325,10 @@ header::after{
 .Fifth_background_picture{
   background-image: url('/home/afzal/Desktop/Software repository/UI Design/Darchives/files/research/rosetta_sculpture.jpg');
   margin-top: 73.5%;
+  position: absolute;
   border-radius: 10px;
-  border: 1px solid #2CDCD8;
-  margin-left: 475px;
+  border: 1px solid #66DCD9;
+  margin-left: 800px;
   background-repeat: no-repeat;
   background-attachment: scroll;
   position: absolute;
@@ -359,6 +364,20 @@ header::after{
   z-index: -1;
 }
 
+.Fourth_background{
+  background-color:#121212;
+  margin-top: 50%;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  position: absolute;
+  background-size: 100% 100%;
+  height: 100%;
+  width: 100%;
+  z-index: -1;
+
+}
+
+
 .Fifth_background{
   background-color:#121212;
   margin-top: 50%;
@@ -370,6 +389,11 @@ header::after{
   width: 100%;
   z-index: -1;
 
+}
+
+
+.fifth_page_wrapper{
+  margin-left: 300px;
 }
 
 .box{
@@ -404,7 +428,7 @@ header::after{
 
 .box_1_wrapper{
   position: absolute;
-  margin: 1000% -290px auto;
+  margin: 1000% 30px auto;
 
 }
 
@@ -413,7 +437,7 @@ header::after{
   width: 330px;
   display: flex;
   background-color:#121212;
-  border: 0.5px solid #A1DCDB;
+  border: 0.5px solid #404040;
   position: absolute;
   z-index: 3;
   margin:26.9% auto auto auto;
