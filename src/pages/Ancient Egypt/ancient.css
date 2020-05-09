@@ -160,7 +160,7 @@ h3{
   font-size: 17px;
   position: absolute;
   float: right;
-  margin: 30px auto 0px -430px;
+  margin: 30px auto 0px -400px;
 
   }
 
@@ -246,7 +246,7 @@ header::after{
   float: right;
   font-size: 10px;
   font-family: Fontz;
-  margin: 173% 50.4% 10px 3%;
+  margin: 185% 50.4% 10px 3%;
   color: #2CDCD8;
   text-align: left;
   z-index: 3;
@@ -256,10 +256,10 @@ header::after{
 .fifth_background_comment{
   position: absolute;
   float: right;
-  font-size: 15px;
+  font-size: 13px;
   font-family: Future_font;
   font-weight: lighter;
-  margin:  185% 70.4% 10px 3%;
+  margin:  190% 70.4% 10px 3%;
   color: #FFFFFF;
   text-align: left;
   z-index: 2;
@@ -320,13 +320,15 @@ header::after{
 
 .Fifth_background_picture{
   background-image: url('/home/afzal/Desktop/Software repository/UI Design/Darchives/files/research/rosetta_sculpture.jpg');
-  margin-top: 70%;
-  margin-left: 440px;
+  margin-top: 73.5%;
+  border-radius: 10px;
+  border: 1px solid #2CDCD8;
+  margin-left: 475px;
   background-repeat: no-repeat;
   background-attachment: scroll;
   position: absolute;
   background-size: 100% 100%;
-  height: 100%;
+  height: 85%;
   width: 28%;
 
 
@@ -346,7 +348,7 @@ header::after{
 }
 
 .fifth_gradient_right{
-  background: linear-gradient(to left, #262626 24%,transparent 100%);
+  background: linear-gradient(to left, #262626 20%,transparent 100%);
   width: 85%;
   height: 100%;
   margin: 59.7% 0% auto auto;
@@ -357,6 +359,18 @@ header::after{
   z-index: -1;
 }
 
+.Fifth_background{
+  background-color:#121212;
+  margin-top: 50%;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  position: absolute;
+  background-size: 100% 100%;
+  height: 100%;
+  width: 100%;
+  z-index: -1;
+
+}
 
 .box{
   height: 15px;
@@ -387,6 +401,44 @@ header::after{
   align-items: center;
   justify-content: center;
 }
+
+.box_1_wrapper{
+  position: absolute;
+  margin: 1000% -290px auto;
+
+}
+
+.box_1{
+  height: 15px;
+  width: 330px;
+  display: flex;
+  background-color:#121212;
+  border: 0.5px solid #A1DCDB;
+  position: absolute;
+  z-index: 3;
+  margin:26.9% auto auto auto;
+  left: 80.5%;
+  -moz-transform: translateX(-50%) translateY(-50%);
+  -webkit-transform: translateX(-50%) translateY(-50%);
+  transform: translateX(-50%) translateY(-50%);
+
+}
+
+.box_1_content{
+  color:#A1DCDB;
+  font-family: Future_font;
+  font-size: 10.6px;
+  font-weight: lighter;
+  padding-top: 0px;
+  margin-left: 22px;
+  padding-bottom: 2px;
+  display: flex;
+
+  align-items: center;
+  justify-content: center;
+}
+
+
 
 .first_heading {
   position: relative;
