@@ -183,8 +183,8 @@ header::after{
   float: right;
   font-size: 17px;
   font-family: Fontz;
-  margin: 15% 53.4% 10px 0%;
-  color: #31DA9C;
+  margin: 15% 55% 10px 0%;
+  color:#2CDCD8;
   text-align: left;
 
 }
@@ -194,7 +194,7 @@ header::after{
   font-size: 12px;
   font-family: Future_font;
   margin: 0px 45% 0px 3.0%;
-  color: #6ADAB1;
+  color: #66DCD9;
   text-align: left;
 
 }
@@ -240,49 +240,55 @@ header::after{
     font-family: Future_font;
 
 
+
  }
+
 .container input{
   background-color: #121212;
-  margin-left: 20px;
+  margin-left: 110px;
   border-color: #A1DCDB;
   border: 0.1px solid #A1DCDB;
-  color: #2CDCD8;
+  color: white;
   border-top-color: transparent;
   border-right-color: transparent;
   border-left-color: transparent;
 
 }
-.name{
-  margin: -12% -3% auto;
+
+
+#login_box #login_box_child_div{
+  list-style-type: none;
+  font-style: normal;
+  font-family: Fontz;
+  font-size: 12px;
+  margin-left: -70px;
+  line-height: 55px;
+  margin-top: -65px;
+
+}
+.lower input{
+  margin-left: 280px;
+  font-size:20px;
+  z-index: 55;
+  border: none;
+  border:1px solid white;
+  background-color: white;
+  color: black;
+  margin-top: 18px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border-radius: 7px;
+}
+
+.container #heading_login_box{
   position: absolute;
-
+  font-size: 19px;
+  margin-top: -90px;
+  margin-left: 85px;
+  font-family: Fontz;
 }
-
-.lower{
-  position: relative;
-  left: 84%;
-  top: 110px;
-
-
-}
- .user{
-   margin: 40px;
-
- }
- .pass{
-   margin-top: -6%;
-   position: absolute;
-}
-.dropdown_selection{
-  position: absolute;
-  margin-top: 5%;
-
-}
-
-.dropdown_selection #dropstuff{
-  margin-left: 56px;
-}
-
 
 input{
   color: black;
