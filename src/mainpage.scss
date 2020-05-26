@@ -9,7 +9,7 @@ body {
 }
 
 a {
-  color:#A1DAC5;
+  color:#A1DCDB;
   text-decoration: none;
 }
 
@@ -130,7 +130,7 @@ a {
   margin-top: 30px;
   font-size: 14px;
   list-style: none;
-  color:White;
+  color:#A1DCDB;
 }
 
 /*This overrides it apparently */
@@ -140,7 +140,7 @@ a {
   font-size: 17px;
   position: absolute;
   float: right;
-  margin: 30px auto 0px -350px;
+  margin: 32px auto 0px -350px;
 
   }
 
@@ -176,12 +176,6 @@ header::after{
 
 }
 
-
-.Nav_button_icon{
-	position: absolute;
-	margin: 40px 0% 0% 2%;
-
-}
 
 
 .main_heading {
@@ -233,22 +227,30 @@ header::after{
 
  .container {
     position: absolute;
+    padding-top: 110px;
+    padding-left: 66px;
     width: 350px;
     height: 220px;
-    left: 50%;
-    margin:13% 10% 10% 20%;
-   	background: transparent;
+    left: 45%;
+    margin:8% 40% 10% 16%;
+   	background: #121212;
     color:#2CDCD8;
     border-radius: 10px;
-    border: 1px solid transparent;
+    border: 0.5px solid #121212;
+    font-family: Future_font;
 
 
  }
 .container input{
-  background-color: #191919;
+  background-color: #121212;
+  margin-left: 20px;
   border-color: #A1DCDB;
-  border: 1px solid#A1DCDB;
-  color: #66DCD9;
+  border: 0.1px solid #A1DCDB;
+  color: #2CDCD8;
+  border-top-color: transparent;
+  border-right-color: transparent;
+  border-left-color: transparent;
+
 }
 .name{
   margin: -12% -3% auto;
@@ -257,9 +259,11 @@ header::after{
 }
 
 .lower{
-  position: absolute;
-  margin-top: 50%;
-  margin-left: 85%;
+  position: relative;
+  left: 84%;
+  top: 110px;
+
+
 }
  .user{
    margin: 40px;
@@ -279,15 +283,6 @@ header::after{
   margin-left: 56px;
 }
 
-.label_radio{
-  position: absolute;
-  margin-top: 20%;
-}
-.checkboxes{
-  position: absolute;
-  margin-top: 50%;
-
-}
 
 input{
   color: black;

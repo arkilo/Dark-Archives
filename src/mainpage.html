@@ -1,4 +1,19 @@
+<!-- Theme B
+#2CDCD8
+#66DCD9
+#A1DCDB
+Logo color: #28D292
+Bright contrast: #FF7C33
+Light contrast:  #DC6B2C
+Orange White: #FFD4BB;
+Background_black_light_tone_two:#191919
+-->
 
+<!-- Theme A
+#31DA9C
+#6ADAB1
+#A1DAC5
+-->
 <!-- Adding the css sheet  -->
  <link rel="stylesheet" type="text/css" href="mainpage.scss">
 
@@ -45,66 +60,50 @@
 <!--The login form -->
 
 
-<div class="container">
+<div class="container" style="height:380px;width:400px;">
 <form>
 <div class="name">
 <label for="name">First Name</label>
 <input type="text" id="username" name="username">
 </div>
+<div class="lastname">
+<label for="lastname">Last Name</label>
+<input type="text" id="lastname" name="lastname">
+</div>
 <div class="user">
-<label for="username">User</label>
+<label for="username">User name</label>
 <input type="text" id="username" name="username">
 </div>
 <div class="pass">
 <label for="password">Password</label>
 <input type="password" id="password" name="password">
 </div>
+<div class="email">
+<label for="email">Email</label>
+<input type="email" id="email" name="email">
+</div>
+<div class="age">
+<label for="age">Age</label>
+<input type="age" id="age" name="age">
+</div>
+
 
 <div class="dropdown_selection"
-<label for="Select Field">Field
+<label for="Select Field">Gender
 <select id="dropstuff" name = "dropdown">
-            <option value = "Computer Science" selected>Computer Science</option>
-            <option value = "Humanities">Humanities</option>
-            <option value = "Economics">Economics</option>
+            <option value = "Male" selected>Male</option>
+            <option value = "Female">Female</option>
+            <option value = "Other">Other</option>
 </select>
 </label>
 </div>
-<div class="label_radio">
-<label for="Select Gender">Gender</label>
-
-
-<div id="radiobutton">
-<input type="radio" id="male" name="gender" value="male">
-<label for="male">Male</label><br>
-<input type="radio" id="female" name="gender" value="female">
-<label for="female">Female</label><br>
-<input type="radio" id="other" name="gender" value="other">
-<label for="other">Other</label>
-</div>
-</div>
-
-
-<div class="checkboxes">
-<div id="label">
-<label for="Select Gender">Where did you hear about us?</label>
-</div>
-
-<input type="checkbox" id="vehicle1" name="1" value="News">
-<label for="1">News</label><br>
-<input type="checkbox" id="vehicle2" name="2" value="Radio">
-<label for="2"> Radio</label><br>
-<input type="checkbox" id="vehicle3" name="3" value="Friends">
-<label for="3"> Friends</label><br>
-<input type="checkbox" id="vehicle3" name="4" value="Family">
-<label for="4">Family</label><br>
-<input type="checkbox" id="vehicle3" name="5" value="School">
-<label for="5">School</label><br>
-<input type="checkbox" id="vehicle3" name="6" value="TV">
-<label for="6"> TV</label><br>
-<input type="checkbox" id="vehicle3" name="7" value="Other">
-<label for="7"> Other</label><br>
 
 </div>
+
+<div class="lower">
+<input type="submit" value="Sign Up">
+</div><!--/ lower-->
+
 
 
 </form>
@@ -112,10 +111,6 @@
 
 
 </div>
-
-<div class="lower">
-<input type="submit" value="Sign Up">
-</div><!--/ lower-->
 
 
 <div class="left_block">
