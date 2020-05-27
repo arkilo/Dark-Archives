@@ -15,7 +15,7 @@ Background_black_light_tone_two:#191919
 #A1DAC5
 -->
 <!-- Adding the css sheet  -->
- <link rel="stylesheet" type="text/css" href="mainpage.scss">
+ <link rel="stylesheet" type="text/css" href="mainpage.css">
 
 <!-- Adding the header / title bar -->
 <header>
@@ -62,23 +62,27 @@ Background_black_light_tone_two:#191919
 
 <div class="container" style="height:380px;width:400px;">
 <h2 id="heading_login_box">Registration</h2>
-<form>
+
+<form action="file:///var/www/html/Darchives_project_database/insert_in_sql.php"  method="post">
+
 <ul id="login_box">
 <div id="login_box_child_div">
 
+
+
 <li><div class="name">
 <label for="name">First Name</label>
-<input type="text" id="username" name="username">
+<input type="text" id="username" name="firstname">
 </div></li>
 
 <li><div class="lastname">
 <label for="lastname">Last Name</label>
-<input type="text" id="lastname" name="lastname">
+<input type="text" id="lastname" name="lastname">
 </div></li>
 
 <li><div class="user">
 <label for="username">User name</label>
-<input type="text" id="username" name="username">
+<input type="text" id="username" name="username">
 </div></li>
 
 <li><div class="pass">
@@ -99,11 +103,12 @@ Background_black_light_tone_two:#191919
 </div>
 </ul>
 
-</form>
-
 <div class="lower">
 <input type="submit" value="Sign Up">
 </div>
+
+</form>
+
 
 </div>
 
