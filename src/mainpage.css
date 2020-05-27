@@ -16,11 +16,11 @@ a {
 
 @font-face {
   font-family:Fontz;
-  src: url('/home/afzal/Desktop/Software repository/UI Design/Darchives/files/pictures/G/G.ttf');
+  src: url('files/pictures/G/G.ttf');
 }
 @font-face {
   font-family:Future_font;
-  src: url('/home/afzal/Desktop/Software repository/UI Design/Darchives/files/pictures/P/P.ttf');
+  src: url('files/pictures/P/P.ttf');
 }
 
 // The title bar css code, links to header
@@ -165,7 +165,7 @@ header::after{
 }
 
 .Background_photo_page_1{
-	background-image: url('/home/afzal/Desktop/Software repository/UI Design/Darchives/files/pictures/wall.jpg');
+	background-image: url('files/pictures/wall.jpg');
 	background-repeat: no-repeat;
 	background-attachment: scroll;
 	position: absolute;
