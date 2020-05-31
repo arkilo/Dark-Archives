@@ -50,11 +50,11 @@ h3{
 
 @font-face {
   font-family:Fontz;
-  src: url('/home/afzal/Desktop/Software repository/UI Design/Darchives/files/pictures/G/G.ttf');
+  src: url('../../files/pictures/G/G.ttf');
 }
 @font-face {
   font-family:Future_font;
-  src: url('/home/afzal/Desktop/Software repository/UI Design/Darchives/files/pictures/P/P.ttf');
+  src: url('../../files/pictures/P/P.ttf');
 }
 
 #menubar{
@@ -307,7 +307,7 @@ header::after{
 }
 
 .Fourth_background_picture{
-  background-image: url('/home/afzal/Desktop/Software repository/UI Design/Darchives/files/research/statue-sobekemsafe-egyptian-sculpture-gallery-british-museum.jpg');
+  background-image: url('../../files/research/statue-sobekemsafe-egyptian-sculpture-gallery-british-museum.jpg');
   margin-top: 70%;
   margin-left: 800px;
   background-repeat: no-repeat;
@@ -323,7 +323,7 @@ header::after{
 
 
 .Fifth_background_picture{
-  background-image: url('/home/afzal/Desktop/Software repository/UI Design/Darchives/files/research/rosetta_sculpture.jpg');
+  background-image: url('../../files/research/rosetta_sculpture.jpg');
   margin-top: 73.5%;
   position: absolute;
   border-radius: 10px;
