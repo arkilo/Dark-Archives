@@ -8,13 +8,16 @@ a {
 }
 
 .Background_photo_page_1{
-	background-image: url('../../files/pictures/wall.jpg');
-	background-repeat: no-repeat;
-	background-attachment: scroll;
-	position: absolute;
-	background-size: 100% 100%;
-	height: 110%;
-	width: 100%;
+  background-color:#121219;
+  margin-top: 0%;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  position: absolute;
+  background-size: 100% 100%;
+  height: 100%;
+  width: 100%;
+  z-index: -1;
+
 
 
 }
@@ -143,7 +146,7 @@ a {
   font-size: 17px;
   position: absolute;
   float: right;
-  margin: 32px auto 0px -350px;
+  margin: 32px auto 0px -250px;
 
   }
 
@@ -167,3 +170,87 @@ header::after{
   clear: both;
 }
 
+
+
+#v_l_left {
+  border-left: 2px solid #404040;
+  position: absolute;
+  height: 560px;
+  margin-top: 2px;
+  z-index: 5;
+  margin: 3.9% 0px 0px 12%;
+}
+
+#v_aes_left {
+  border-left: 3.5px solid #404040;
+  position: absolute;
+  height: 300px;
+  margin-top: 2px;
+  z-index: 5;
+  margin: 3.9% 0px 0px 6%;
+}
+
+#v_l_right {
+  border-right: 2px solid #404040;
+  position: absolute;
+  height: 560px;
+  margin-top: 2px;
+  z-index: 5;
+  margin: 3.9% 200px 0px 1270px;
+}
+
+
+#h_l_top{
+  border-top: 2px solid #404040;
+  position: absolute;
+  width: 1275px;
+  z-index: 5;
+  margin: 3.9% 0px 0px 7px;
+}
+
+#h_l_bottom{
+  border-top: 2px solid #404040;
+  position: absolute;
+  width: 1114px;
+  z-index: 5;
+  margin: 46.5% 0px 0px 12%;
+}
+
+#h_l_contain_bottom{
+  border-top: 2px solid #404040;
+  position: absolute;
+  width: 1312px;
+  z-index: 02;
+  margin: 48.5% 0px 0px -10px;
+
+}
+
+#v_l_inner{
+  border-left: 2px solid #404040;
+  position: absolute;
+  height: 400px;
+  margin-top: 2px;
+  z-index: 5;
+  margin: 8% 0px 0px 37%;
+}
+
+.Headings_container #Outer_main_heading{
+    writing-mode:sideways-lr;
+    margin-top:7%;
+    color:#15F7AB;
+    font-family: Fontz;
+    font-size: 23px;
+    position: absolute;
+
+}
+
+.Headings_container #Inner_main_heading{
+    writing-mode:sideways-lr;
+    margin-top:6.5%;
+    margin-left: 5%;
+    color:#707070;
+    font-family: Fontz;
+    font-size: 14px;
+    position: absolute;
+
+}
