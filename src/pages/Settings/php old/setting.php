@@ -1,8 +1,10 @@
 
+
 <!-- Adding the css sheet  -->
 <link rel="stylesheet" type="text/css" href="setting.css">
 
-
+<!-- importing the php file -->
+<?php include("sql_connect.php"); ?>
 
 <header>
 <div class="header">
@@ -29,6 +31,9 @@
 </div>
 </header>
 
+<!--Line container start -->
+
+
 <div class="line_container">
 <div id="v_l_left">
 </div>
@@ -54,6 +59,23 @@
 
 </div>
 
+<h1 style="color:orange;z-index: 4;position: absolute;margin-top: 350px;">
+<?php 
+include("sql_connect.php");
+
+$query = "SELECT * FROM `Login_info`"; //You don't need a ; like you do in SQL
+$result = mysqli_query($sql);
+$row = mysqli_fetch_array($result);
+echo $row[1];
+echo "new";
+?>  
+</h1>
+
+<!--Line container END -->
+
+<!--Side heading container start -->
+
+
 <div class="Headings_container">
 
 <div id="Outer_main_heading">
@@ -66,6 +88,32 @@
 
 
 </div>
+<!--Side heading container end -->
+
+
+<!--Main container start -->
+<div class="central_container_parent">
+
+<div id="central_child_container_left">
+	<ul id="central_container_left_list">
+		<li>Account</li>
+		<li>Profile</li>
+		<li>Security</li>
+		<li>FAQ</li>
+		<li>Sign Out</li>
+	</ul>
+</div>
+
+<div id="central_child_container_right">
+	<!-- The place for the data to be viewed from -->
+
+</div>
+
+
+</div>
+<!--Main container end -->
+
+
 
 <div class="Background_photo_page_1" style="top: 0px;bottom: 0px; right:0px;left:0px;">
 </div>
