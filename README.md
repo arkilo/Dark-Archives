@@ -10,3 +10,12 @@ This project contains a simple website displaying information and includes a reg
 Here is a demo of the registration system. It takes the input and stores it in the sql database and in the settings page, any of the given information can be changed using the email. 
 
 ![Registration Gif](secondgif.gif)
+
+
+## What I learned
+
+
+- Integrating backend with frontend 
+- Relationships between the design and processing elements
+- Creating intuitive design and choosing appropriate color schemes
+- Limitations of choosing the wrong framework for backend processing
