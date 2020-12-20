@@ -1,0 +1,119 @@
+
+
+<!-- Adding the css sheet  -->
+<link rel="stylesheet" type="text/css" href="setting.css">
+
+<!-- importing the php file -->
+<?php include("sql_connect.php"); ?>
+
+<header>
+<div class="header">
+  <div id="menubar">
+      <ul>
+      <li>Contact</li>
+      <li>About</li>
+      <li><a href="pages/Settings/setting.html">Settings</a></li>      
+      <li id="parent_drop" >Articles
+            <ul id="Drop">
+              <li><a href="pages/Ancient Egypt/ancientegypt.html">Ancient Egypt</a></li>
+              <li style="margin-bottom: 20px;">Makkah</li>
+            </ul>
+      </li>
+      <li id="tile">Setting</li>
+
+      <li><div id="Nav_button_icon">
+      <a href="../../mainpage.html"><img src="../../files/pictures/se.png" height="43%" width="43%"></a>
+      </div>
+      </li>
+
+    </ul>
+  </div>
+</div>
+</header>
+
+<!--Line container start -->
+
+
+<div class="line_container">
+<div id="v_l_left">
+</div>
+
+<div id="v_aes_left">
+</div>
+
+<div id="v_l_right">
+</div>
+
+
+<div id="h_l_top">
+</div>
+
+<div id="h_l_bottom">
+</div>
+
+<div id="h_l_contain_bottom">
+</div>
+
+<div id="v_l_inner">
+</div>
+
+</div>
+
+<h1 style="color:orange;z-index: 4;position: absolute;margin-top: 350px;">
+<?php 
+include("sql_connect.php");
+
+$query = "SELECT * FROM `Login_info`"; //You don't need a ; like you do in SQL
+$result = mysqli_query($sql);
+$row = mysqli_fetch_array($result);
+echo $row[1];
+echo "new";
+?>  
+</h1>
+
+<!--Line container END -->
+
+<!--Side heading container start -->
+
+
+<div class="Headings_container">
+
+<div id="Outer_main_heading">
+<h2>Settings</h2>
+</div>
+
+<div id="Inner_main_heading">
+<h3>Accounts & Profile</h3>
+</div>
+
+
+</div>
+<!--Side heading container end -->
+
+
+<!--Main container start -->
+<div class="central_container_parent">
+
+<div id="central_child_container_left">
+	<ul id="central_container_left_list">
+		<li>Account</li>
+		<li>Profile</li>
+		<li>Security</li>
+		<li>FAQ</li>
+		<li>Sign Out</li>
+	</ul>
+</div>
+
+<div id="central_child_container_right">
+	<!-- The place for the data to be viewed from -->
+
+</div>
+
+
+</div>
+<!--Main container end -->
+
+
+
+<div class="Background_photo_page_1" style="top: 0px;bottom: 0px; right:0px;left:0px;">
+</div>

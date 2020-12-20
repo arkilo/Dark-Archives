@@ -1,37 +1,62 @@
+<!-- Theme B
+#2CDCD8
+#66DCD9
+#A1DCDB
+Logo color: #28D292
+Bright contrast: #FF7C33
+Light contrast:  #DC6B2C
+Orange White: #FFD4BB;
+Background_black_light_tone_two:#191919
+-->
+
+<!-- Theme A
+#31DA9C
+#6ADAB1
+#A1DAC5
+-->
+<!-- Adding the css sheet  -->
+ <link rel="stylesheet" type="text/css" href="mainpage.css">
+
+
 
 <!-- Adding the css sheet  -->
- <link rel="stylesheet" type="text/css" href="mainpage.scss">
+ <link rel="stylesheet" type="text/css" href="ancient.css">
+<header>
+<div class="header">
+  <div id="menubar">
+      <ul>
+      <li>Contact</li>
+      <li><a href="pages/Settings/setting.php">Settings</a></li>      
+      <li>About</li>
+      <li id="parent_drop" >Articles
+            <ul id="Drop">
+              <li><a href="pages/Ancient Egypt/ancientegypt.html">Ancient Egypt</a></li>
+              <li style="margin-bottom: 20px;">Makkah</li>
+            </ul>
+      </li>
+      <li id="tile">Home</li>
+
+      <li><div id="Nav_button_icon">
+      <a href="mainpage.html"><img src="files/pictures/se.png" height="43%" width="43%"></a>
+      </div>
+      </li>
+
+    </ul>
+  </div>
+</div>
+</header>
+
 
 <div class="Background_photo_page_1" style="top: 0px;bottom: 0px; right:0px;left:0px;">
 </div>
 
-<div class="Nav_button_icon">
-<a href="mainpage.html"><img src="/home/afzal/Desktop/Software repository/UI Design/Darchives/files/pictures/se.png" height="50%" width="50%"></a>
-</div>
-<div class="Nav_bar">
-
-<div class="Nav_button_1">
-<a href="pages/About/about.html"><h1>About</h1></a>
-</div>
-<div class="Nav_button_2">
-<a href="pages/Contact/contact.html"><h1>Contact</h1></a>
-</div>
-<div class="Nav_button_3">
-<a href="pages/Al-Ula/ula.html"><h1>Al Ula</h1></a>
-</div>
-<div class="Nav_button_4">
-<a href="pages/Ancient Makkah/makkah.html"><h1>Ancient Makkah</h1></a>
-</div>
-<div class="Nav_button_5">
-<a href="pages/Ancient Egypt/ancientegypt.html"><h1>Ancient Egypt<h1></a>
-</div>
-</div>
 
 
 
 <!-- The heading and a little info, all enclosed inside of a div with a class to help finding the place to edit the css file, the css file can just be edited by using .{name} for that specific class of a div -->
 <div class="main_heading">
 <h2>Welcome to the Dark Archives</h2>
+
 </div>
 <div class="main_heading_paragraph">
 <h3>An archive created for the instance where humanity is wiped out. The target audience are the alien species in the future who might uncover our fossils. This will allow them to understand our race with a visually intuitive design because we all know how frustrating decoding the pyramids of egypt have been.</h3>
@@ -39,23 +64,67 @@
 
 <!--The login form -->
 
-<div id="container">
-<form>
-<div class="user">
-<label for="username">User</label>
-<input type="text" id="username" name="username">
-</div>
-<div class="pass">
+
+<div class="container" style="height:380px;width:400px;">
+<h2 id="heading_login_box">Registration</h2>
+
+<form action="backend/insert_into_sql.php"  method="post">
+
+<ul id="login_box">
+<div id="login_box_child_div">
+
+
+
+<li><div class="name">
+<label for="name">First Name</label>
+<input type="text" id="username" name="firstname">
+</div></li>
+
+<li><div class="lastname">
+<label for="lastname">Last Name</label>
+<input type="text" id="lastname" name="lastname">
+</div></li>
+
+<li><div class="user">
+<label for="username">User name</label>
+<input type="text" id="username" name="username">
+</div></li>
+
+<li><div class="pass">
 <label for="password">Password</label>
 <input type="password" id="password" name="password">
+</div></li>
+
+<li><div class="email">
+<label for="email">Email&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+<input type="email" id="email" name="email">
+</div></li>
+
+<li><div class="age">
+<label for="age">Age&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+<input type="age" id="age" name="age">
+</div></li>
+
 </div>
+</ul>
+
 <div class="lower">
-<input type="submit" value="Login">
-</div><!--/ lower-->
-</form>
+<input type="submit" value="Sign Up">
 </div>
+
+</form>
+
+
+</div>
+
+
+
+
 
 
 <div class="left_block">
 <h1>Learn More</h1>
 	</div>
+
+  <div class="container_border">
+  </div>
